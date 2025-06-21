@@ -1,7 +1,9 @@
 # Codigeadas
 Programa en C++ para traducir las codigeadas, si no sabes a qué meme hace referencia esto 53 073$3# 84 @ )@ ?834$@ 👀. 
-Si eres un vago como yo y no quiere descifrar las codigeadas a mano, o si la distribución de tu teclado es raro como el mío, este programa te podrá servir... creo.
-Salu2 a Mamarre, servidor qlo en decadencia.
+Salu2 a Mamarre
+
+![image](https://github.com/user-attachments/assets/535efd30-70b1-409d-8dfc-6917065ac553)
+
 
 ## Cosas a tener en cuenta
 1. Este programa no funciona bien con las tildes, si ingesas una palabra con una todas las letras a excepción de la vocal con la tilde serán reemplazadas, se recomienda cambiar manualmente las vocales con tilde por vocales normales antes de codificar el texto.
