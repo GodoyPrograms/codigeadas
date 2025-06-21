@@ -1,6 +1,6 @@
 # Codigeadas
 Programa en C++ para traducir las codigeadas, si no sabes a qué meme hace referencia esto 53 073$3# 84 @ )@ ?834$@ 👀. 
-Salu2 a Mamarre
+Salu2 a Mamarre, servidor qliao en decadencia.
 
 ![image](https://github.com/user-attachments/assets/535efd30-70b1-409d-8dfc-6917065ac553)
 
