@@ -15,6 +15,7 @@ int main()
 {
     cout << "=== Maquina enigma ===" << endl;
     menu();
+    return 0;
 }
 
 void menu(){
