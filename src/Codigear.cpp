@@ -15,7 +15,8 @@ void Codigear::archivo(){
     ifstream in("cifrado.txt"); // Se abre el archivo cifrado.txt en modo lectura
 
     if(!in){
-        cout << "No se ha podido abrir el archivo cifrado.txt" << endl;
+        cout << "No se ha podido abrir el archivo cifrado.txt, asegurate de tenerlo en la misma carpeta que el programa" << endl;
+        system("pause");
         exit(1);
     }
 
