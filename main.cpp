@@ -2,8 +2,6 @@
 
 // This program is free software: you can redistribute it and/or modify it
 // under the terms of the GNU General Public License and blah blah blah
-#include <iostream>
-#include <string>
 #include "Codigear.h"
 
 using namespace std;
