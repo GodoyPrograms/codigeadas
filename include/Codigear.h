@@ -6,12 +6,10 @@
 #include <cctype>
 #include <string>
 
-using namespace std;
-
 class Codigear
 {
     public:
-        Codigear(int opt, string texto);
+        Codigear(int opt, std::string texto);
         virtual ~Codigear(); // No es necesario esto pero lo dejo porque posnomas
 
         void codigo(); // La función fundamental del código, con la que se accede al resto de métodos
@@ -20,8 +18,8 @@ class Codigear
 
     private:
         int opt;
-        string texto;
-        vector<char> caracteres;
+        std::string texto;
+        std::vector<char> caracteres;
 
         void archivo();
         void cifrado();

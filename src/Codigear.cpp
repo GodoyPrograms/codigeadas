@@ -1,6 +1,6 @@
 #include "Codigear.h"
 
-Codigear::Codigear(int opt, string texto)
+Codigear::Codigear(int opt, std::string texto)
 {
     this -> opt = opt;
     this -> texto = texto;
@@ -12,10 +12,10 @@ Codigear::~Codigear()
 }
 
 void Codigear::archivo(){
-    ifstream in("cifrado.txt"); // Se abre el archivo cifrado.txt en modo lectura
+    std::ifstream in("cifrado.txt"); // Se abre el archivo cifrado.txt en modo lectura
 
     if(!in){
-        cout << "No se ha podido abrir el archivo cifrado.txt, asegurate de tenerlo en la misma carpeta que el programa" << endl;
+        std::cout << "No se ha podido abrir el archivo cifrado.txt, asegurate de tenerlo en la misma carpeta que el programa" << std::endl;
         system("pause");
         exit(1);
     }
@@ -37,7 +37,7 @@ void Codigear::cifrado(){
             }
         }
     }
-    cout << texto << endl; // Se imprime el texto codificado
+    std::cout << texto << std::endl; // Se imprime el texto codificado
 }
 
 void Codigear::descifrado(){
@@ -49,13 +49,13 @@ void Codigear::descifrado(){
             }
         }
     }
-    cout << texto << endl; // Se imprime el texto decodificado
+    std::cout << texto << std::endl; // Se imprime el texto decodificado
 }
 
 void Codigear::codigo(){
     archivo();
 
-    cout << "\nResultado:" << endl;
+    std::cout << "\nResultado:" << std::endl;
     if(opt == 1){
         descifrado();
     }else{
